@@ -1,0 +1,35 @@
+.card {
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.imageWrap {
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  font-size: 1.05rem;
+}
+
+.desc {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.group {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold-soft);
+}

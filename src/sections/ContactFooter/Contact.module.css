@@ -1,0 +1,76 @@
+.panel {
+  padding: clamp(2rem, 5vw, 3.5rem);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  .panel {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.rowLabel {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-faint);
+}
+
+.rowValue {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.placeholder {
+  color: var(--color-text-faint);
+  font-style: italic;
+}
+
+.link:hover {
+  color: var(--color-gold);
+}
+
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.formTitle {
+  font-size: 1.2rem;
+}
+
+.formText {
+  font-family: var(--font-body);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.mailtoFallback {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--color-text-faint);
+  text-decoration: underline;
+}
+
+.mailtoFallback:hover {
+  color: var(--color-cyan);
+}

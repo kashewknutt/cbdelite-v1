@@ -1,0 +1,88 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding-block: 4rem 2rem;
+  background: rgba(6, 8, 16, 0.6);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  }
+}
+
+.colTitle {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gold-soft);
+  margin-bottom: 1rem;
+}
+
+.brand {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.bio {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.motto {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--color-cyan-soft);
+  margin-bottom: 0.5rem;
+}
+
+.district {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--color-text-faint);
+}
+
+.navList,
+.contactList,
+.socialList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.navList a,
+.contactList span,
+.socialList a {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+}
+
+.navList a:hover,
+.socialList a:hover {
+  color: var(--color-gold);
+}
+
+.placeholder {
+  color: var(--color-text-faint);
+  font-style: italic;
+}
+
+.bottomBar {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--color-text-faint);
+}

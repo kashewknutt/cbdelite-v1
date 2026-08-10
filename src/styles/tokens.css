@@ -1,0 +1,47 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #0b0e1a;
+  --color-bg-elevated: #10142470;
+  --color-bg-glass: rgba(18, 22, 38, 0.55);
+  --color-bg-glass-strong: rgba(18, 22, 38, 0.8);
+
+  /* Brand accents */
+  --color-gold: #f2c744;
+  --color-gold-soft: #f7dd8b;
+  --color-cyan: #22d3ee;
+  --color-cyan-soft: #7ee8f7;
+  --color-royal: #3b6bff;
+
+  /* Text */
+  --color-text: #f5f6fa;
+  --color-text-muted: #a3a8bd;
+  --color-text-faint: #6b7089;
+
+  /* Borders / glow */
+  --color-border: rgba(242, 199, 68, 0.18);
+  --color-border-cyan: rgba(34, 211, 238, 0.2);
+  --glow-gold: 0 0 40px rgba(242, 199, 68, 0.35);
+  --glow-cyan: 0 0 40px rgba(34, 211, 238, 0.3);
+
+  /* Gradients */
+  --gradient-accent: linear-gradient(135deg, var(--color-gold) 0%, var(--color-cyan) 100%);
+  --gradient-bg: radial-gradient(circle at 20% 0%, rgba(59, 107, 255, 0.18), transparent 55%),
+    radial-gradient(circle at 85% 20%, rgba(242, 199, 68, 0.12), transparent 45%),
+    var(--color-bg);
+
+  /* Type */
+  --font-display: 'Space Grotesk', 'Georgia', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Layout */
+  --container-max: 1280px;
+  --space-section: clamp(4rem, 10vw, 9rem);
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --z-cursor: 9999;
+  --z-header: 900;
+}

@@ -1,0 +1,16 @@
+.card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  background: var(--color-bg-glass);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid var(--color-border);
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+  will-change: transform;
+}
+
+.card:hover {
+  border-color: var(--color-gold);
+  box-shadow: var(--glow-gold);
+}
